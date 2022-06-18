@@ -13,6 +13,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.5
+  fluttericon: ^2.0.0
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  smirl_version_checker: ^0.0.4
 
 dev_dependencies:
   flutter_test:

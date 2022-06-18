@@ -1,4 +1,4 @@
-package com.example.akilipesa
+package com.smirltech.akilipesa
 
 import io.flutter.embedding.android.FlutterActivity
 
