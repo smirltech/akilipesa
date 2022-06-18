@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Akilipesa',
+      title: '${ai.appInfo["projectName"]}',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
