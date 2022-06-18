@@ -114,13 +114,19 @@ class _SplashScreenState extends State<SplashScreen> {
                     quote1,
                     style: const TextStyle(color: Colors.white),
                   ),
+                  const SizedBox(
+                    height: 5,
+                  ),
                   Text(
                     website,
                     style: const TextStyle(color: Colors.white),
                   ),
+                  const SizedBox(
+                    height: 5,
+                  ),
                   Obx(() {
                     return Text(
-                      "${ai.appInfo['projectVersion']}(${ai.appInfo['projectCode']})",
+                      "version ${ai.appInfo['projectVersion']}+${ai.appInfo['projectCode']}",
                       style: const TextStyle(color: Colors.white, fontSize: 8),
                     );
                   }),
